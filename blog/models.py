@@ -1,6 +1,5 @@
 from django.db import models
 from autoslug import AutoSlugField
-from uuslug import uuslug
 from pytils.translit import slugify
 # Create your models here.
 
