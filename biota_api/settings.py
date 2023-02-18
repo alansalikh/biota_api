@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.getenv('DEBUG'))
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['164.90.224.228']
 
 
 # Application definition
@@ -127,7 +127,7 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static/'
 
 MEDIA_URL = 'media/'
-STATIC_ROOT = BASE_DIR / 'media/'
+MEDIA_ROOT = BASE_DIR / 'media/'
 
 
 # Default primary key field type
